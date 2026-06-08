@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Poppins,sans-serif;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#050816;
+  overflow-x:hidden;
+}
+
+.app{
+  width:100%;
+  min-height:100vh;
+}
+body{
+  background:#050816;
+  overflow-x:hidden;
+  background-image:
+  radial-gradient(circle at 20% 20%, rgba(0,255,255,.15), transparent 200px),
+  radial-gradient(circle at 80% 30%, rgba(145,94,255,.15), transparent 200px),
+  radial-gradient(circle at 50% 80%, rgba(0,255,255,.1), transparent 200px);
+}
+body{
+  cursor:crosshair;
+}
+
+::selection{
+  background:cyan;
+  color:black;
+}
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background:cyan;
+  border-radius:20px;
+}
