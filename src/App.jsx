@@ -22,7 +22,7 @@ function App() {
   <Skills />
   <Cursor />
   <Projects />
-  <Footer/>
+  
   <Experience />
  <SkillBars/>
   <Certificates />
